@@ -1,9 +1,16 @@
-import { makeAutoObservable } from 'mobx';
+import { action, makeObservable, observable } from 'mobx';
 
 export default class Store {
   page = 'main';
 
   constructor() {
-    makeAutoObservable(this);
+    makeObservable(this, {
+      page: observable,
+      setPage: action,
+    });
+  }
+
+  setPage(page: string) {
+    this.page = page;
   }
 }
