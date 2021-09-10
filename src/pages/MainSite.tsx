@@ -11,6 +11,7 @@ import headerImg from '../assets/cropped-header-four-2016.jpg';
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: #f1f1f1;
+    box-sizing: border-box;
   }
 `;
 
@@ -35,12 +36,13 @@ export default observer(() => {
         <StyledImg src={headerImg} />
         <NavBar></NavBar>
       </header>
-      <div>{store.page}</div>
+      {/* <div>{store.page}</div> */}
       <div>
         <Welcome></Welcome>
       </div>
+      <hr />
       <Footer></Footer>
-      <button onClick={() => store.setPage('other')}>press</button>
+      {/* <button onClick={() => store.setPage('other')}>press</button> */}
     </App>
   );
 });
