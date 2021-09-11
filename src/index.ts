@@ -1,3 +1,7 @@
-import App from './pages/App';
+import App from './App';
+import Store from './store/Store';
 
-App();
+(() => {
+  const store = new Store();
+  App(store);
+})();

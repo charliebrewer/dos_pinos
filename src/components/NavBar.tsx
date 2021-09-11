@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link, useHistory } from 'react-router-dom';
 
 const Items = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
 `;
 
@@ -45,7 +46,7 @@ const DropdownContent = styled.div`
   }
 `;
 
-const DropdownContentA = styled.a`
+const StyledLink = styled(Link)`
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -57,34 +58,36 @@ const DropdownContentA = styled.a`
 `;
 
 export default () => {
+  const history = useHistory();
+
   return (
     <Items>
       <Dropdown>
-        <Dropbtn onClick={() => {}}>Welcome</Dropbtn>
+        <Dropbtn onClick={() => history.push('/')}>Welcome</Dropbtn>
       </Dropdown>
 
       <Dropdown>
         <Dropbtn onClick={() => {}}>About</Dropbtn>
         <DropdownContent>
-          <DropdownContentA href="#">History</DropdownContentA>
-          <DropdownContentA href="#">Vision</DropdownContentA>
-          <DropdownContentA href="#">Locaiton</DropdownContentA>
+          <StyledLink to="/history">History</StyledLink>
+          <StyledLink to="">Vision</StyledLink>
+          <StyledLink to="">Locaiton</StyledLink>
         </DropdownContent>
       </Dropdown>
 
       <Dropdown>
         <Dropbtn onClick={() => {}}>{'Organization & Participation'}</Dropbtn>
         <DropdownContent>
-          <DropdownContentA href="#">Organizational Structure</DropdownContentA>
-          <DropdownContentA href="#">Member Contribution</DropdownContentA>
+          <StyledLink to="">Organizational Structure</StyledLink>
+          <StyledLink to="">Member Contribution</StyledLink>
         </DropdownContent>
       </Dropdown>
 
       <Dropdown>
         <Dropbtn onClick={() => {}}>{'Floor Plans & Finances'}</Dropbtn>
         <DropdownContent>
-          <DropdownContentA href="#">Floorplans</DropdownContentA>
-          <DropdownContentA href="#">Financial Information</DropdownContentA>
+          <StyledLink to="">Floorplans</StyledLink>
+          <StyledLink to="">Financial Information</StyledLink>
         </DropdownContent>
       </Dropdown>
 
