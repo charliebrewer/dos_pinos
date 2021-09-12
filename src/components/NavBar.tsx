@@ -70,8 +70,8 @@ export default () => {
         <Dropbtn onClick={() => {}}>About</Dropbtn>
         <DropdownContent>
           <StyledLink to="/history">History</StyledLink>
-          <StyledLink to="">Vision</StyledLink>
-          <StyledLink to="">Locaiton</StyledLink>
+          <StyledLink to="/vision">Vision</StyledLink>
+          <StyledLink to="/location">Location</StyledLink>
         </DropdownContent>
       </Dropdown>
 

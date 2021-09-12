@@ -9,10 +9,13 @@ import { observer } from 'mobx-react-lite';
 import styled from 'styled-components';
 import headerImg from '../assets/cropped-header-four-2016.jpg';
 import { Switch, Route } from 'react-router-dom';
+import Vision from './Vision';
+import Location from './Location';
 
 const App = styled.div`
   max-width: 900px;
   margin: auto;
+  padding: 20px;
   background-color: #ffffff;
 `;
 
@@ -27,6 +30,11 @@ export default observer(() => {
     <App>
       <header>
         <h1>Dos Pinos Housing Cooperative</h1>
+
+        <p>
+          <i>More than just a place to live...</i>
+        </p>
+
         <StyledImg src={headerImg} />
         <NavBar></NavBar>
       </header>
@@ -34,6 +42,14 @@ export default observer(() => {
       <Switch>
         <Route path="/history">
           <History />
+        </Route>
+
+        <Route path="/vision">
+          <Vision />
+        </Route>
+
+        <Route path="/location">
+          <Location />
         </Route>
 
         <Route path="*">
