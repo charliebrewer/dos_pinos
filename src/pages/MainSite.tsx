@@ -11,6 +11,13 @@ import headerImg from '../assets/cropped-header-four-2016.jpg';
 import { Switch, Route } from 'react-router-dom';
 import Vision from './Vision';
 import Location from './Location';
+import FAQ from './FAQ';
+import MembersHandbook from './MembersHandbook';
+import ApplicationProcess from './ApplicationProcess';
+import FinancialInformation from './FinancialInformation';
+import FloorPlans from './FloorPlans';
+import MemberContribution from './MemberContribution';
+import OrganizationalStructure from './OrganizationalStructure';
 
 const App = styled.div`
   max-width: 900px;
@@ -52,6 +59,34 @@ export default observer(() => {
           <Location />
         </Route>
 
+        <Route path="/organizationalStructure">
+          <OrganizationalStructure />
+        </Route>
+
+        <Route path="/memberContribution">
+          <MemberContribution />
+        </Route>
+
+        <Route path="/floorPlans">
+          <FloorPlans />
+        </Route>
+
+        <Route path="/financialInformation">
+          <FinancialInformation />
+        </Route>
+
+        <Route path="/applicationProcess">
+          <ApplicationProcess />
+        </Route>
+
+        <Route path="/membersHandbook">
+          <MembersHandbook />
+        </Route>
+
+        <Route path="/faq">
+          <FAQ />
+        </Route>
+
         <Route path="*">
           <Welcome />
         </Route>
@@ -63,4 +98,3 @@ export default observer(() => {
     </App>
   );
 });
-// history vision location organizationalStructure memberContribution floorPlans financialInformation applicationProcess membersHandbook faq

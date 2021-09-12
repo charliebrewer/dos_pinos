@@ -78,29 +78,37 @@ export default () => {
       <Dropdown>
         <Dropbtn onClick={() => {}}>{'Organization & Participation'}</Dropbtn>
         <DropdownContent>
-          <StyledLink to="">Organizational Structure</StyledLink>
-          <StyledLink to="">Member Contribution</StyledLink>
+          <StyledLink to="/organizationalStructure">
+            Organizational Structure
+          </StyledLink>
+          <StyledLink to="/memberContribution">Member Contribution</StyledLink>
         </DropdownContent>
       </Dropdown>
 
       <Dropdown>
         <Dropbtn onClick={() => {}}>{'Floor Plans & Finances'}</Dropbtn>
         <DropdownContent>
-          <StyledLink to="">Floorplans</StyledLink>
-          <StyledLink to="">Financial Information</StyledLink>
+          <StyledLink to="/floorPlans">Floorplans</StyledLink>
+          <StyledLink to="/financialInformation">
+            Financial Information
+          </StyledLink>
         </DropdownContent>
       </Dropdown>
 
       <Dropdown>
-        <Dropbtn onClick={() => {}}>Application Process</Dropbtn>
+        <Dropbtn onClick={() => history.push('/applicationProcess')}>
+          Application Process
+        </Dropbtn>
       </Dropdown>
 
       <Dropdown>
-        <Dropbtn onClick={() => {}}>Member's Handbook</Dropbtn>
+        <Dropbtn onClick={() => history.push('/membersHandbook')}>
+          Member's Handbook
+        </Dropbtn>
       </Dropdown>
 
       <Dropdown>
-        <Dropbtn onClick={() => {}}>FAQ</Dropbtn>
+        <Dropbtn onClick={() => history.push('/faq')}>FAQ</Dropbtn>
       </Dropdown>
     </Items>
   );
