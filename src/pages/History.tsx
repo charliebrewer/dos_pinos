@@ -4,7 +4,9 @@ export default () => {
   return (
     <div>
       <h2>History</h2>
-      <p>A Brief History of Dos Pinos</p>
+      <h3>
+        <em>A Brief History of Dos Pinos</em>
+      </h3>
 
       <p>
         The California laws for creating limited equity housing cooperatives

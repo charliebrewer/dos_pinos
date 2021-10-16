@@ -7,12 +7,12 @@ export default () => {
 
       <p>
         <b>
-          Important Note: Due to long waiting lists, there is an indefinite
-          moratorium on accepting new applications for membership in the Dos
-          Pinos Housing Cooperative. The Dos Pinos Board of Directors will
-          reassess waiting lists periodically and post any updates on this
-          website. For informational purposes the application process is
-          described below.
+          <span style={{ color: 'red' }}>Important Note</span>: Due to long
+          waiting lists, there is an indefinite moratorium on accepting new
+          applications for membership in the Dos Pinos Housing Cooperative. The
+          Dos Pinos Board of Directors will reassess waiting lists periodically
+          and post any updates on this website. For informational purposes the
+          application process is described below.
         </b>
       </p>
 

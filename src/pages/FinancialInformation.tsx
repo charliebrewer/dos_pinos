@@ -2,7 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledTable = styled.table`
-  border: 1px solid black;
+  border: 1px solid #e7e7e7;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  thead {
+    background-color: #d9edf7;
+    color: #333;
+  }
+
+  td, th {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right 15px;
+  }
 `;
 
 export default () => {
