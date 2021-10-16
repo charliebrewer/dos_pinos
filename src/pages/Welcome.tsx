@@ -1,4 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+import map from '../assets/map.png';
+
+const CenteredImg = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+`;
 
 export default () => {
   return (
@@ -46,6 +55,10 @@ export default () => {
       </p>
 
       <p>Dos Pinos Housing Cooperative, 2550 Sycamore Lane, Davis, CA 95616</p>
+
+      <a href="https://goo.gl/maps/WpcpBiuN3q8NAXzy9" target="_blank">
+        <CenteredImg src={map} />
+      </a>
     </div>
   );
 };
