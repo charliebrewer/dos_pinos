@@ -1,4 +1,13 @@
 import React from 'react';
+import map from '../assets/map.png';
+import styled from 'styled-components';
+
+const CenteredImg = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+`;
 
 export default () => {
   return (
@@ -15,6 +24,10 @@ export default () => {
         and is just one block from the Marketplace Shopping center. DOS PINOS IS
         IN A GREAT LOCATION!
       </p>
+
+      <a href="https://goo.gl/maps/WpcpBiuN3q8NAXzy9" target="_blank">
+        <CenteredImg src={map} />
+      </a>
     </div>
   );
 };
