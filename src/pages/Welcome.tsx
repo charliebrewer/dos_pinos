@@ -48,10 +48,13 @@ export default () => {
       </p>
 
       <p>
-        Important Note: Due to long waiting lists, there is an indefinite
-        moratorium on accepting new applications for membership in the Dos Pinos
-        Housing Cooperative. The Dos Pinos Board of Directors will reassess
-        waiting lists periodically and post any updates on this website.{' '}
+        <b>
+          <span style={{ color: 'red' }}>Important Note</span>: Due to long
+          waiting lists, there is an indefinite moratorium on accepting new
+          applications for membership in the Dos Pinos Housing Cooperative. The
+          Dos Pinos Board of Directors will reassess waiting lists periodically
+          and post any updates on this website.{' '}
+        </b>
       </p>
 
       <p>Dos Pinos Housing Cooperative, 2550 Sycamore Lane, Davis, CA 95616</p>

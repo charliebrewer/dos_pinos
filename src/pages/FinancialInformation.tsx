@@ -50,8 +50,8 @@ export default () => {
             <th>Unit Size</th>
             <th>Number of Units</th>
             <th>Approx. Square Footage</th>
-            <th>Monthly Assessment as of Jan. 2019</th>
-            <th>Max. Basic Share Value as of Jan. 2019*</th>
+            <th>Monthly Assessment as of Jan. 2021</th>
+            <th>Max. Basic Share Value as of Dec. 2020*</th>
           </tr>
         </thead>
 
@@ -59,24 +59,24 @@ export default () => {
           <td>1BR</td>
           <td>6</td>
           <td>652</td>
-          <td>$710</td>
-          <td>$23,160.10</td>
+          <td>$731</td>
+          <td>$23,160</td>
         </tr>
 
         <tr>
           <td>2BR</td>
           <td>28</td>
           <td>928</td>
-          <td>$999</td>
-          <td>$30,581.65</td>
+          <td>$1029</td>
+          <td>$30,582</td>
         </tr>
 
         <tr>
           <td>3BR</td>
           <td>26</td>
           <td>1238</td>
-          <td>$1248</td>
-          <td>$38,966.17</td>
+          <td>$1285</td>
+          <td>$38,966</td>
         </tr>
       </StyledTable>
 
@@ -84,9 +84,9 @@ export default () => {
         <li>
           Dos Pinos members who itemize their income tax deductions are able to
           deduct their portion of the corporation’s mortgage interest and real
-          estate taxes. For 2019, proportional mortgage interest, mortgage
-          insurance and real estate taxes were $1376 (1-BR); $1960 (2-BR); and
-          $2344 (3-BR).
+          estate taxes. For 2020, proportional mortgage interest, mortgage
+          insurance and real estate taxes were $1249 (1-BR); $1778 (2-BR); and
+          $2127 (3-BR).
         </li>
 
         <li>

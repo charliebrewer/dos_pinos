@@ -1,4 +1,5 @@
 import React from 'react';
+import big1br from '../assets/big1br.png';
 import big2br from '../assets/big2br.jpg';
 import big3brDown from '../assets/big3br-downstairs.jpg';
 import big3brUp from '../assets/big3br-upstairs.jpg';
@@ -28,7 +29,7 @@ export default () => {
 
       <p>One Bedroom</p>
 
-      <img src={big2br} />
+      <img src={big1br} />
 
       <p>Two Bedroom</p>
 

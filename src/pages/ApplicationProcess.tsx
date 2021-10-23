@@ -1,4 +1,5 @@
 import React from 'react';
+import applicationPacket from '../assets/Application_Packet_March_2021.pdf';
 
 export default () => {
   return (
@@ -21,11 +22,15 @@ export default () => {
       </p>
 
       <p>
-        To start the application process, you must complete a membership
-        application and submit the required documentation and an application fee
-        ($50 for one shareholder, or $80 for two). When the administrative staff
-        determines that your application is complete, you will be given a packet
-        of basic information about Dos Pinos.
+        To start the{' '}
+        <a href={applicationPacket} target="_blank">
+          application
+        </a>{' '}
+        process, you must complete a membership application and submit the
+        required documentation and an application fee ($50 for one shareholder,
+        or $80 for two). When the administrative staff determines that your
+        application is complete, you will be given a packet of basic information
+        about Dos Pinos.
       </p>
 
       <p>

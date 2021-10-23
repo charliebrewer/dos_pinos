@@ -107,9 +107,9 @@ export default () => {
         </Dropbtn>
       </Dropdown>
 
-      {/* <Dropdown>
+      <Dropdown>
         <Dropbtn onClick={() => history.push('/faq')}>FAQ</Dropbtn>
-      </Dropdown> */}
+      </Dropdown>
     </Items>
   );
 };
