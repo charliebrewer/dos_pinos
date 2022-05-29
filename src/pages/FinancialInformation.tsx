@@ -50,8 +50,8 @@ export default () => {
             <th>Unit Size</th>
             <th>Number of Units</th>
             <th>Approx. Square Footage</th>
-            <th>Monthly Assessment as of Jan. 2021</th>
-            <th>Max. Basic Share Value as of Dec. 2020*</th>
+            <th>Monthly Assessment as of Jan. 2022</th>
+            <th>Max. Basic Share Value as of Dec. 2021*</th>
           </tr>
         </thead>
 

@@ -8,8 +8,8 @@ export default () => {
 
       <p>
         The attached PDF copy of the Dos Pinos Housing Cooperative Members'
-        Handbook was updated in August 2021. Documents or policies revised or
-        added after that date are not reflected in this copy.
+        Handbook was updated in May 2022. Documents or policies revised or added
+        after that date are not reflected in this copy.
       </p>
 
       <a href={membersHandbook} target="_blank">
