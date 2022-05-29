@@ -30,7 +30,7 @@ export default () => {
 
       <ul>
         <li>
-          All ages and walks of life are represented–singles, single parents,
+          All ages and walks of life are represented-singles, single parents,
           couples, and families with children.
         </li>
         <li>
@@ -59,42 +59,41 @@ export default () => {
           <td>1BR</td>
           <td>6</td>
           <td>652</td>
-          <td>$731</td>
-          <td>$23,160</td>
+          <td>$795</td>
+          <td>$25,049</td>
         </tr>
 
         <tr>
           <td>2BR</td>
           <td>28</td>
           <td>928</td>
-          <td>$1029</td>
-          <td>$30,582</td>
+          <td>$1083</td>
+          <td>$33,075</td>
         </tr>
 
         <tr>
           <td>3BR</td>
           <td>26</td>
           <td>1238</td>
-          <td>$1285</td>
-          <td>$38,966</td>
+          <td>$1340</td>
+          <td>$42,144</td>
         </tr>
       </StyledTable>
 
       <ul>
         <li>
           Dos Pinos members who itemize their income tax deductions are able to
-          deduct their portion of the corporation’s mortgage interest and real
-          estate taxes. For 2020, proportional mortgage interest, mortgage
-          insurance and real estate taxes were $1249 (1-BR); $1778 (2-BR); and
-          $2127 (3-BR).
+          deduct their portion of the corporation's mortgage interest and real
+          estate taxes. For 2021, proportional mortgage interest and real estate
+          taxes were $1332 (1BR); $1896 (2BR); and $2268 (3BR).
         </li>
 
         <li>
-          Each member’s share value appreciates per criteria outlined in our
+          Each member's share value appreciates per criteria outlined in our
           Bylaws. The annual rate of appreciation is the prime interest rate (as
           of Jan 1st of each year) as reported by the Wall Street Journal up to
           a maximum of 10%. Historically, annual rates have ranged from 3.25% to
-          8.25%.
+          10.0%.
         </li>
 
         <li>
